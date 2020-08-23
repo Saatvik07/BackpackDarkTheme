@@ -1,6 +1,4 @@
 body,
-#discussion_subject,
-textarea,
 body > div.navbar.navbar-fixed-top > div,
 body > div.navbar.navbar-fixed-top,
 input,
@@ -9,29 +7,20 @@ input,
 #description_container > ul > li:nth-child(2) > div > a:nth-child(1),
 #description_container > ul > li:nth-child(2) > div > a:nth-child(2),
 #description_container > ul > li:nth-child(3) > div.btn-group > a,
-.table-picture,
-.table-question,
-.table-time,
-.table-activity,
-.tile-info,
 .nav-box,
 #user_profile_modal_body,
-.thumbnail,
 .modal-footer,
 #wrap > div:nth-child(1) > nav > div.navbar-header.pull-right > ul > li > ul,
 #user_settings_modal_body,
 .modal-header,
 #user_email,
 #user_password,
-#wrap > div:nth-child(1) > nav > div.navbar-header.pull-right > ul > li > a,
 #dropdown_nav > li > a,
 #dropdown_nav,
-td {
-	background-color: #151515 !important;
-	color: #888 !important;
+.dropdown-menu > li > a {
+	background-color: #252525 !important;
+	color: #b5b3b7 !important;
 }
-#discussion_subject,
-textarea,
 input,
 #description_container > ul > li:nth-child(1) > div > a:nth-child(1),
 #description_container > ul > li:nth-child(1) > div > a:nth-child(2),
@@ -39,19 +28,43 @@ input,
 #description_container > ul > li:nth-child(2) > div > a:nth-child(2),
 #description_container > ul > li:nth-child(3) > div.btn-group > a,
 #user_profile_modal_body,
-.thumbnail,
 .modal-footer,
 #wrap > div:nth-child(1) > nav > div.navbar-header.pull-right > ul > li > ul,
 #user_settings_modal_body,
 .modal-header,
 #user_email,
-#user_password,
-td {
-	border: 2px #151515 !important;
+#user_password {
+	border: 2px #252525 !important;
 }
+.ajaxlink {
+	background-color: transparent;
+	color: #b5b3b7 !important;
+}
+.table-picture,
+.table-question,
+.table-time,
+.table-activity {
+	background-color: #2b2b2b !important;
+	color: #b5b3b7 !important;
+}
+.thumbnail,
+.nav-box,
+#discussion_no_show,
+#new_discussion {
+	background-color: #2b2b2b !important;
+	border: 2px solid #2b2b2b !important;
+}
+.tile-info {
+	color: #b5b3b7 !important;
+}
+.nav-header,
+.home > h2 {
+	color: #d7d6d8 !important;
+}
+
 .box {
-	background-color: #222 !important;
-	border: 2px solid #222 !important;
+	background-color: #2b2b2b !important;
+	border: 2px solid #2b2b2b !important;
 	animation: help 0.5s;
 }
 #course-tab-content > a {
@@ -65,22 +78,31 @@ td {
 #affixthis > ul,
 #affixthis,
 #newFooter,
-footer,
-#course-tab-content > div.discussions-box {
-	background-color: #151515 !important;
-	border: 2px #151515 solid !important;
+footer {
+	background-color: #1c1c1c !important;
+	border: 2px #1c1c1c solid !important;
 }
-#course-tab-content > div.inline-create-box,
-#new_discussion,
+#course-tab-content > div.discussions-box,
+#course-tab-content > div.inline-create-box {
+	background-color: #2b2b2b !important;
+	border: 2px #2b2b2b solid !important;
+}
 #edit_user_23050 > div:nth-child(8) > div > div > span,
 #user_current_password,
 #user_password,
 #user_password_confirmation,
 .featurette-divider,
-#body {
+#body,
+#discussion_subject,
+textarea {
 	background-color: #353535 !important;
 	border: 2px #353535 !important;
 }
+#submitdiscussion {
+	background-color: #e67e22 !important;
+	color: #fff !important;
+}
+
 #course-tab-content > div.inline-create-box {
 	padding: 20px !important;
 }
@@ -102,13 +124,21 @@ footer,
 #affixthis > ul > li > a > span,
 #affixthis > ul > li > a {
 	font-weight: bold !important;
-	color: #888 !important;
+	color: #b5b3b7 !important;
 }
 #user_email,
 #user_password {
 	margin: 20px 0 !important;
 }
-#wrap > div:nth-child(1) > nav > div.navbar-header.pull-right > ul > li > ul > li > a,
+#wrap
+	> div:nth-child(1)
+	> nav
+	> div.navbar-header.pull-right
+	> ul
+	> li
+	> ul
+	> li
+	> a,
 #user_profile_modal_body > div:nth-child(2) > div > button > span:nth-child(1),
 h3,
 h4,
@@ -116,8 +146,17 @@ h5,
 h6,
 h7,
 button.close,
-legend {
-	color: #888 !important;
+legend,
+#discussion_subject,
+textarea,
+#edit_user_23050 > div:nth-child(8) > div > div > span,
+#user_current_password,
+#user_password,
+#user_password_confirmation,
+.featurette-divider,
+#body,
+.form-label-example {
+	color: #b5b3b7 !important;
 }
 #wrap > div:nth-child(1) > nav > div.navbar-header.pull-right > ul > li > a {
 	padding: 5px 10px !important;
@@ -132,22 +171,25 @@ legend {
 legend {
 	border-bottom: 2px #353535 solid !important;
 }
-#edit_user_23050 > div:nth-child(8) > div > div > span,
-#user_current_password,
-#user_password,
-#user_password_confirmation,
-.featurette-divider,
-#body {
-	color: #888 !important;
-}
+
 #edit_user_23050 > div:nth-child(9) > div > input {
 	background-color: #e67e22 !important;
 	color: #fff !important;
 }
+
+#deadlines-list > ul > li > a,
+#yield > div > div.col-md-3 > div:nth-child(7) > ul > li > a {
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
 #deadlines-list > ul > li > a:hover,
 #yield > div > div.col-md-3 > div:nth-child(7) > ul > li > a:hover {
 	background-color: #353535 !important;
 }
+
 @keyframes help {
 	0% {
 		transform: translate(-200px);
@@ -158,4 +200,19 @@ legend {
 		opacity: 1;
 	}
 }
+
+.discussionmodal_div > .discussion,
+.discussionmodal_div > div > .discussion,
+.wysihtml5-toolbar > li > .btn-group > a {
+	background-color: #2b2b2b !important;
+	color: #b5b3b7 !important;
+	border: 2px solid #2b2b2b !important;
+}
+.modal-body {
+	background-color: #212121 !important;
+}
+#feedback_form > .other > textarea {
+	background-color: white;
+}
+
 /* Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */
