@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "backpackDarkTheme",
+	"version": "1.0",
+	"icons": {
+		"128": "logo.png"
+	},
+	"content_scripts": [
+		{
+			"css": ["styles.css"],
+			"js": ["script.js"],
+			"matches": ["https://www.usebackpack.com/*"]
+		}
+	]
+}
