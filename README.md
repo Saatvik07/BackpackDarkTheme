@@ -9,9 +9,9 @@
 <!-- ![image1](ReadMeAssets/ReadmeImage1.PNG)
 ![image 2](ReadMeAssets/ReadmeImage2.PNG) -->
 
-[image1](/ReadMeAssets/Picture1.png)
-[image2](/ReadMeAssets/Picture2.png)
-[image3](/ReadMeAssets/Picture3.png)
+![image1](/ReadMeAssets/Picture1.png)
+![image2](/ReadMeAssets/Picture2.png)
+![image3](/ReadMeAssets/Picture3.png)
 
 ## How to use ?
 
