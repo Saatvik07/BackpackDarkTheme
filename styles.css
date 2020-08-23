@@ -25,7 +25,8 @@ input,
 #user_password,
 #wrap > div:nth-child(1) > nav > div.navbar-header.pull-right > ul > li > a,
 #dropdown_nav > li > a,
-#dropdown_nav {
+#dropdown_nav,
+td {
 	background-color: #151515 !important;
 	color: #888 !important;
 }
@@ -44,7 +45,8 @@ input,
 #user_settings_modal_body,
 .modal-header,
 #user_email,
-#user_password {
+#user_password,
+td {
 	border: 2px #151515 !important;
 }
 .box {
